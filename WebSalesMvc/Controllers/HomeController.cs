@@ -17,7 +17,8 @@ namespace WebSalesMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Lojas de Celulares Teste";
+            ViewData["Dono"] = "Arthur Lorenzetti da Rosa";
 
             return View();
         }
